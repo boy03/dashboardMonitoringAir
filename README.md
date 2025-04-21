@@ -35,6 +35,9 @@ Aplikasi Smart Kolam adalah solusi monitoring tambak ikan berbasis IoT dan Flutt
 # 🤝 Kontribusi
 Pull Request sangat terbuka untuk fitur baru, perbaikan bug, atau dokumentasi tambahan.
 
+# 📄 Lisensi
+Proyek ini menggunakan lisensi MIT.
+
 # 📷 Tampilan Antarmuka
 # Light mode
 ![image](https://github.com/user-attachments/assets/06e4c4a6-1066-4de3-8bca-4f2c8a68310b)
