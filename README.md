@@ -1,20 +1,53 @@
-# kntl
+# 🐟 Smart Kolam - Monitoring IoT Tambak Ikan Berbasis Flutter
+Aplikasi Smart Kolam adalah solusi monitoring tambak ikan berbasis IoT dan Flutter. Aplikasi ini menampilkan data real-time dari berbagai sensor yang terhubung melalui protokol MQTT.
 
-A new Flutter project.
+📱 Fitur Aplikasi
+🔌 Koneksi ke broker MQTT untuk komunikasi real-time
 
-## Getting Started
+📶 Monitoring 3 kolam sekaligus
 
-This project is a starting point for a Flutter application.
+# 🌡️ Data sensor yang ditampilkan:
 
-A few resources to get you started if this is your first Flutter project:
+Suhu air
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+DO (Dissolved Oxygen)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+pH air
 
+Jumlah pakan
+
+Tinggi air
+
+🌓 Mode tampilan terang dan gelap (light & dark mode)
+
+🔄 Update otomatis saat data baru diterima
+
+⚙️ Pengaturan koneksi dan topik MQTT
+
+# 🧠 Teknologi yang Digunakan
+Flutter (Frontend Mobile)
+
+MQTT (mqtt_client.dart) untuk komunikasi IoT
+
+ESP32 / Arduino / Sensor IoT (dari perangkat luar, sebagai publisher MQTT)
+
+JSON Parsing untuk data sensor
+
+# 🛠️ Cara Menjalankan
+Clone repositori ini
+
+Jalankan flutter pub get
+
+Pastikan perangkat IoT kamu sudah terhubung ke broker MQTT
+
+Ubah konfigurasi broker di file mqtt_service.dart
+
+Jalankan di emulator atau perangkat Android/iOS
+
+# 🤝 Kontribusi
+Pull Request sangat terbuka untuk fitur baru, perbaikan bug, atau dokumentasi tambahan.
+
+# 📷 Tampilan Antarmuka
 # Light mode
 ![image](https://github.com/user-attachments/assets/06e4c4a6-1066-4de3-8bca-4f2c8a68310b)
 ![image](https://github.com/user-attachments/assets/76214a61-4409-4128-a500-25c69daa49fc)
