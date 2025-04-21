@@ -8,41 +8,29 @@ Aplikasi Smart Kolam adalah solusi monitoring tambak ikan berbasis IoT dan Flutt
 
 # 🌡️ Data sensor yang ditampilkan:
 
-Suhu air
-
-DO (Dissolved Oxygen)
-
-pH air
-
-Jumlah pakan
-
-Tinggi air
-
-🌓 Mode tampilan terang dan gelap (light & dark mode)
-
-🔄 Update otomatis saat data baru diterima
-
-⚙️ Pengaturan koneksi dan topik MQTT
+- Suhu air
+- DO (Dissolved Oxygen)
+- pH air
+- Jumlah pakan
+- Tinggi air
+- 🌓 Mode tampilan terang dan gelap (light & dark mode)
+- 🔄 Update otomatis saat data baru diterima
+- ⚙️ Pengaturan koneksi dan topik MQTT
 
 # 🧠 Teknologi yang Digunakan
-Flutter (Frontend Mobile)
 
-MQTT (mqtt_client.dart) untuk komunikasi IoT
-
-ESP32 / Arduino / Sensor IoT (dari perangkat luar, sebagai publisher MQTT)
-
-JSON Parsing untuk data sensor
+- Flutter (Frontend Mobile)
+- MQTT (mqtt_client.dart) untuk komunikasi IoT
+- ESP32 / Arduino / Sensor IoT (dari perangkat luar, sebagai publisher MQTT)
+- JSON Parsing untuk data sensor
 
 # 🛠️ Cara Menjalankan
-Clone repositori ini
 
-Jalankan flutter pub get
-
-Pastikan perangkat IoT kamu sudah terhubung ke broker MQTT
-
-Ubah konfigurasi broker di file mqtt_service.dart
-
-Jalankan di emulator atau perangkat Android/iOS
+- Clone repositori ini
+- Jalankan flutter pub get
+- Pastikan perangkat IoT kamu sudah terhubung ke broker MQTT
+- Ubah konfigurasi broker di file mqtt_service.dart
+- Jalankan di emulator atau perangkat Android/iOS
 
 # 🤝 Kontribusi
 Pull Request sangat terbuka untuk fitur baru, perbaikan bug, atau dokumentasi tambahan.
